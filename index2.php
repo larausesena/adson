@@ -11,7 +11,7 @@ echo "<br>Hola mundo";
 ?>
 <p>
 <font size="5" color="red" face="comic sans ms">
-    variables en  php  adso</font><p>
+    variables en  php  adsosdddd</font><p>
 <?php
 $ini ="Hola esto es ";
 $fin ="variables en php";
