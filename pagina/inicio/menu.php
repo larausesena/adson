@@ -1,0 +1,1 @@
+<center> <a href="inicio.php">Inicio </a>&nbsp;<a href="html.php">Html </a>&nbsp;<a href="index.php">sesion </a>

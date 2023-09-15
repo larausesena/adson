@@ -1,0 +1,128 @@
+<html>
+    <head><title>formularios</title></head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf8"/>
+    <body>
+
+         <body bgcolor="silver"> 
+      <!--  <body background="imagenes/programacion3.png">-->
+    <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="EJERCICIO1.HTML">Taller</a></li>
+    </ul>
+
+    <center> 
+        <font size="3" color="red" face="comic sans ms"> Formularios en html</font>
+    </center><p>
+
+    <font size="3" color="brown" face="comic sans ms">Campos principales para formularios</font><p>
+
+    <font size="2" color="blue" face="comic sans ms">Formulario de seleccion<p>
+
+    <pre>
+        <input type="radio" name="estado_civil" value="soltero">Solter@</input>
+        <input type="radio" name="estado_civil" value="casado">Casad@</input>
+        <input type="radio" name="estado_civil" value="union">Union Libre</input>
+        <input type="radio" name="estado_civil" value="viudo">Viud@</input>
+        <input type="radio" name="estado_civil" value="divor">Divorciad@</input>
+    </pre>
+
+    <p>
+    Seleccion desplegable<p>
+
+    <select name="estado_civil" id="estado">
+        <option>Soltero</option>
+        <option>Casado</option>
+        <option>Union Libre</option>
+        <option>Viudo</option>
+        <option>Divorciado</option>
+        </select><p>
+    Campos de texto <p>
+
+    Nombre <input type="text" name="nombre"><br><br>
+    Apellido <input type="text" name="apellido"><br><br>
+    Contraseña <input type="password" name="contra"><br><br>
+    Casilla de verificacion <input type="checkbox" name="casilla"><br><br>
+    casilla de seleccion <input type="radio" name="radio"><br><br>
+    Seleccion de archivo <input type="file" name="archivo"><br><br>
+    Fecha <input type="date" name="fecha"><br><br>
+    numeros <input type="number" name="numero"><br><br>
+    Correo <input type="email" value="@"><br><br>
+    Campo mensaje <textarea name="mensaje"></textarea><br><br>
+    Boton de envio <input type="submit" value="Enviar"><br><br>
+    Boton de borrar <input type="reset" value="Borrar"><br><br>
+
+    Seleccion con campo de titulo <p>
+
+    <select name="os">
+        <option selected value="0">Elige una opcion </option>
+        <optgroup label="Microsoft">
+            <option value="1">Windows 8</option>
+            <option value="2">Windows 10</option>
+            <option value="3">Windows 11</option>
+        </optgroup>
+        <optgroup label="Linux">
+            <option value="4">Suse</option>
+            <option value="5">Ubuntu</option>
+            <option value="6">Fedora</option>
+        </optgroup>
+    </select><p>
+         </font>
+    <center>
+        <font size="6" color="blue" face="arial">Aplica lo aprendido</font>
+    </center>
+
+    <form action="recibe.html" method="post">
+        <table border="2" bordercolor="red" width="100%" cellspacing="10" cellpadding="10">
+            <tr><td>
+                Nombre <input type="text" name="nombre" size="25" maxlength="50">
+                Apellido <input type="text" name="apellido" size="35" maxlength="100">
+                Correo Electronico <input type="email" value="@" name="correo" size="40" maxlength="100">
+                pais <input type="text" name="pais" size="15" maxlength="50">
+                Ciudad <input type="text" name="ciudad" size="15" maxlength="50">
+            </td></tr>
+        </table>
+        <table border="2" bordercolor="red" width="100%" cellspacing="10" cellpadding="10">
+            <tr>
+                <td>edad <br>
+                <input type="radio" name="edad" value="020">0 - 20 años <br>
+                <input type="radio" name="edad" value="2040">20 - 40 años <br>
+                <input type="radio" name="edad" value="4060">40 - 60 años <br>
+                <input type="radio" name="edad" value="60100">60 o mas años<br></td>
+                <td>
+                    Como nos conociste<br>
+                    <input type="checkbox" name="conocer">
+                    A travez de un buscador web<br>
+                    <input type="checkbox" name="conocer">
+                    A travez de un amigo<br>
+                    <input type="checkbox" name="conocer">
+                    Navegando por la red<br>
+                    <input type="checkbox" name="conocer">
+                    Otros medios<br>
+                </td>
+            </tr>
+        </table>
+        
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+    
+    </body>
+
+</html>

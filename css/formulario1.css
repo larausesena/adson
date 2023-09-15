@@ -1,0 +1,106 @@
+main {
+    padding: 3.5rem 0;
+    background-color: silver;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(235, 13, 13);
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2.8rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    margin: 0.5rem,
+}
+
+.field label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: brown;
+}
+
+.field input{
+    font-size: 1.1rem;
+    height: 2.2rem;
+    padding-left: 0.5rem;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+.field select {
+    font-size: 1.1rem;
+    width: 12rem;
+    height: 2.6rem;
+    padding-left:0.5rem;
+    border:2px solid salmon;
+    border-radius: 5px;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin: 0.75rem;
+}
+
+.texttarea{
+    font-size: 1.1rem;
+    max-width: 100%;
+    height: 5rem;
+    max-height: 15rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    border: 2px solid salmon;
+    border-radius: 5px;
+}
+
+.textBox label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color:silver;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.75rem;
+}
+
+.submit button{
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: aqua;
+}
+
+table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2.8rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
